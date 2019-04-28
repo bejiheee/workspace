@@ -346,6 +346,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content img {
   width:100%;
+  max-width:1837px;
   margin-bottom: 30px;
 }
 
@@ -354,13 +355,15 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
+  position: fixed;
+  top: 30px;
+  right: 40px;
   width: 75px;
   height: 75px;
   cursor: pointer;
   background-color: transparent;
+  z-index:999;
+  opacity:0.6;
 }
 
 .portfolio-modal .close-modal:hover {
