@@ -11,8 +11,10 @@ url('../vendor/fonts/NanumBarunGothic.woff') format('woff');}
 
 body {
   overflow-x: hidden;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
+
+body:lang(en) {font-family:'Raleway', sans-serif}
 
 p {
   line-height: 1.75;
@@ -37,7 +39,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic', 'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 section {
@@ -56,7 +58,7 @@ section h3.section-subheading {
   
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -66,7 +68,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
   font-weight: 700;
 }
 
@@ -116,12 +118,12 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -134,7 +136,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -189,7 +191,7 @@ header.masthead .intro-text .intro-lead-in {
   
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -197,7 +199,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -217,12 +219,12 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+    font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
   }
 }
 
 .service-heading {
-  margin: 15px 0;
+  margin: 50px 0 15px 0;
   text-transform: none;
 }
 
@@ -290,7 +292,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 16px;
   
   margin: 0;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #portfolio * {
@@ -317,9 +319,13 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
+.portfolio-modal .modal-dialog .modal-content .container{width:100%;max-width:100%;}
+
+
+
 .portfolio-modal .modal-content h2 {
   font-size: 3em;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content p {
@@ -628,25 +634,25 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 footer {
@@ -658,7 +664,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 footer ul.quicklinks {
@@ -666,7 +672,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'NanumBarunGothic', 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
+  font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 ul.social-buttons {
