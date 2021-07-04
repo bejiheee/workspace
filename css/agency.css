@@ -208,15 +208,15 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    
+    font-size: 25px;
+    font-weight: 100;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: 'NanumBarunGothic' , 'Raleway', 'Malgun Gothic', '맑은고딕', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 300;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
