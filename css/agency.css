@@ -69,12 +69,12 @@ section h3.section-subheading {
 
 .btn {
   font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 30px;
 }
 
 .btn-primary {
