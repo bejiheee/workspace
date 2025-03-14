@@ -122,12 +122,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #000000;
   font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #ffffff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -135,12 +135,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #000000;
   font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -163,7 +163,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #fed136;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
