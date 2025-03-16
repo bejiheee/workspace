@@ -111,11 +111,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 16px;
   right: 0;
-  padding: 13px;
+  padding: 10px;
   text-transform: uppercase;
-  color: white;
+  color: #000000;
   border: 0;
   background-color: #fed136;
   font-family: 'Raleway', 'NanumBarunGothic',  'Malgun Gothic', '맑은고딕', sans-serif;
